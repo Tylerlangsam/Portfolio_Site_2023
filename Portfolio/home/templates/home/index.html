@@ -7,9 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tyler Langsam</title>
     <script src="{% static 'script.js' %}"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <link href="{% static 'styles.css' %}" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav>
+        <h1>TL</h1>
+            
+        <div class="menu"> 
+            <a href="#">Home</a>
+            <a href="#">Resume</a>
+            <a href="#">Linkedin</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <button class="hamburger">
+            <span class="material-icons">menu</span>
+        </button>
+        </nav>
+
+            <div class="mobile-menu"> 
+            <a href="#">Home</a>
+            <a href="#">Resume</a>
+            <a href="#">Linkedin</a>
+            <a href="#">Contact</a>
+        </div>
+    </header>
 
     <h1>Testing</h1>
     <button onclick="myFunction()">Click me!</button>
