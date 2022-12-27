@@ -1,39 +1,82 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tyler Langsam</title>
     <script src="{% static 'script.js' %}" defer></script>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-    <link href="{% static 'styles.css' %}" rel="stylesheet">
-</head>
-<body>
-	<header>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link href="{% static 'styles.css' %}?{% now 'U' %}" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>TL</h1>
 
-		<nav>
-			<h1>TL</h1>
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#">Linkedin</a>
+          <a href="#">Resume</a>
+          <a href="#">Contact</a>
+        </div>
 
-			<div class="menu">
-				<a href="#">Home</a>
-				<a href="#">Linkedin</a>
-				<a href="#">Resume</a>
-				<a href="#">Contact</a>
-			</div>
+        <button class="hamburger">
+          <span class="material-icons">menu</span>
+        </button>
+      </nav>
 
-			<button class="hamburger">
-				<span class="material-icons">menu</span>
-			</button>
-		</nav>
+      <div class="mobile-menu">
+        <a href="#">Home</a>
+        <a href="#">Linkedin</a>
+        <a href="#">Resume</a>
+        <a href="#">Contact</a>
+      </div>
+    </header>
+    <br /><br />
 
-		<div class="mobile-menu">
-			<a href="#">Home</a>
-			<a href="#">Linkedin</a>
-			<a href="#">Resume</a>
-			<a href="#">Contact</a>
-		</div>
-	</header>
-</body>
+    <div class="about">
+      <img src="{% static 'IMG_3935 (1).jpeg' %}" alt="skyline" width="400" height="400" />
+      <article>
+        As a Python/Django Full Stack Web Development Teaching Assistant at
+        Columbia Business School, I have trained over 75 students in technical
+        skills and computer science fundamentals. I have also mentored students
+        in project management, product development, and collaborative skill
+        building, and contributed to curriculum design by gathering and
+        analyzing student feedback.<br /><br />
+
+        Prior to this role, I was a Shipping and Receiving Supervisor at Killer
+        Merch LLC - Jeffree Star Cosmetics, where I coordinated and supervised a
+        team of 20 members, cross-trained over 50 team members across several
+        departments, and was responsible for the movement and security of over
+        $10 million worth of merchandise each day. I also served as a Shipping
+        and Receiving Lead, managing all aspects of product inventory, leading
+        and participating in projects to optimize operational efficiency, and
+        directing cargo loading.<br /><br />
+
+        In my personal projects, I have designed and written a relational
+        database schema using SQLite, Django, and Python, contributed to full
+        stack code development, acted as project lead and code reviewer, built
+        wireframes using Miro, and created user experience flows. I have also
+        designed entity-relationship diagrams to demonstrate database
+        relationships and business logic. Additionally, I have built a personal
+        portfolio website using Python and Django, deployed with PythonAnywhere,
+        added additional features and functionality, and implemented responsive
+        frontend design using Bootstrap.<br /><br />
+
+        I am skilled in Python, Django, HTML, CSS, Bootstrap, Javascript, React,
+        pair programming, code review, technical mentorship, technical
+        communication, Git, Github, OOP, data structures, debugging, deployment,
+        problem solving, critical thinking, data entry management, supply chain
+        management, and Acumatica. I also possess strong leadership and time
+        management skills.
+      </article><br><br>
+    </div>
+    <footer>
+    </footer>
+  </body>
 </html>
