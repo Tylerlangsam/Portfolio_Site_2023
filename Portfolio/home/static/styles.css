@@ -165,6 +165,13 @@ footer {
   align-items: center; 
 }
 
+.form_btn {
+  font-size: larger;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
 @media (min-width: 768px) {
   .mobile-menu,
   .hamburger {
