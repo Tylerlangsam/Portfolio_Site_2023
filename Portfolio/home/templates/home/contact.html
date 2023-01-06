@@ -41,10 +41,12 @@
 
     <div class="form">
     <div style="margin:300px">
-    <h1>Contact</h1>
-<form method="post">
+    <h3></h3>
+<form method="post" >
     {% csrf_token %}
-    {{form.as_p}}
+
+    {{ form.as_p }}
+
     <button class="form_btn" type="submit">Send</button>
     </div>
 </div>
