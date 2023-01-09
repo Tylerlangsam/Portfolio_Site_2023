@@ -17,7 +17,7 @@ $('.message_text').hover(function(){
     $('.message_text').animate({
     height: "150px"
   }, {
-    duration: 5000,
+    duration: 3000,
     specialEasing: {
       width: "linear",
       height: "easeOutBounce"
