@@ -171,6 +171,12 @@ footer {
   padding-right: 20px;
 }
 
+.message_text {
+  height: 50px;
+}
+
+
+
 
 @media (min-width: 768px) {
   .mobile-menu,
